@@ -28,15 +28,15 @@ public class Task1_5 {
           }
           System.out.println();
 
-          for (int n = 1; n <= 9; n++) {
-            for (int j = 1; j <= 9; j++) {
-                  int m = n*j;
-                  System.out.print("");
-                  if (10 > m)
-                    System.out.print("");
-                  System.out.print(m + "||");
-            }
-          System.out.println();
+          for (int n = 1; n <= 9; n++) { 
+              System.out.print(n + "||");
+            for (int j = 1; j <= 9; j++) { 
+                System.out.print( (n * j) + "|"); 
+            } 
+
+            // １つの段を表示し終わったところで、改行する 
+            System.out.println(); 
+          }
 
           /* ④ 行の最初に「段数」と「||」を追加したものを表示させるプログラムを作成しなさい。
           *     1 || 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
@@ -50,6 +50,5 @@ public class Task1_5 {
           *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
           */
 
-      }
   }
 }
