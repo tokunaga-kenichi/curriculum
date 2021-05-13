@@ -19,10 +19,5 @@ public class Main {
     	User hoge = new User("userName", 123, "abc123" );
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
     	hoge.printAccountInfo();
-    
-    	
-    	
-    	
     }
 }
-
