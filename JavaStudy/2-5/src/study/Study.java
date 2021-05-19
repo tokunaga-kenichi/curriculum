@@ -61,9 +61,6 @@ public class Study {
         		System.out.println("=" + shopMap.get(3) + "円になります");
         	}
         }
-
-
-
     }
 }
     
