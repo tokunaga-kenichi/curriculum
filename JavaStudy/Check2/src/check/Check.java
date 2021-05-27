@@ -10,13 +10,6 @@ public class Check {
 	public static void main(String[] args) {
 		printName(firstName,lastName);
 		
-		
-		
-//		String firstName, lastName;
-//		firstName = "德永";
-//		lastName = "拳一";
-//		printName(firstName, lastName);
-		
 		Pet pet = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
 		pet.introduce();
 		
